@@ -2,7 +2,6 @@
   "name": "calculator",
   "version": "0.1.0",
   "license": "MIT",
-  "homepage": "http://ahfarmer.github.io/calculator",
   "devDependencies": {
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.5",
@@ -14,7 +13,6 @@
   },
   "dependencies": {
     "big.js": "^5.2.2",
-    "github-fork-ribbon-css": "^0.2.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
