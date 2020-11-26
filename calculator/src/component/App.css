@@ -1,0 +1,39 @@
+.component-app {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: stretch !important;
+  justify-content: center !important;
+  margin: auto;
+  margin-top:2.5%;
+  height: 90%;
+  width: 45%;
+  max-width: 45%;
+  border: 3px solid white;
+  border-radius: 7px;
+}
+
+
+@media screen and (max-width: 1200px), (max-height: 768px){
+  .component-app {
+    width: 70%;
+    max-width: 90%;
+    height:100%;
+  }
+
+  html {
+    font-size: 30px !important;
+  }
+}
+
+@media screen and (max-width: 576px){
+  .component-app {
+    width: 100%;
+    max-width: 100%;
+    height:100%;
+  }
+
+  html {
+    font-size: 30px !important;
+  }
+}

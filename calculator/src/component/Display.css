@@ -1,0 +1,11 @@
+.component-display {
+  background-color:whitesmoke;
+  color:turquoise;
+  text-align: right;
+  font-weight: 200;
+}
+
+.component-display > div {
+  font-size: 1.7rem;
+  padding: 0.2rem 0.7rem 0.1rem 0.5rem;
+}
